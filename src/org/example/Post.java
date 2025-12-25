@@ -1,42 +1,41 @@
 package org.example;
 
-public class Post {
-    private int id;
-    private String content;
+public class Post extends Content {
+
     private User author;
 
     public Post(int id, String content, User author) {
-        this.id = id;
-        this.content = content;
+        super(id, content);
         this.author = author;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
     }
 
     public User getAuthor() {
         return author;
     }
 
-    public void setAuthor(User author) {
-        this.author = author;
+    @Override
+    public String getSummary() {
+        return content.length() > 10
+                ? content.substring(0, 10) + "..."
+                : content;
     }
 
     @Override
     public String toString() {
-        return "Post{id=" + id + ", content='" + content + "', author=" + author.getUsername() + "}";
+        String authorName = (author != null) ? author.getUsername() : "unknown";
+        return "Post{id=" + id + ", content='" + content + "', author=" + authorName + "}";
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof Post)) return false;
+        Post post = (Post) obj;
+        return id == post.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Integer.hashCode(id);
     }
 }
