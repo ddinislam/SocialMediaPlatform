@@ -1,0 +1,61 @@
+[33mcommit 0d7db04004672dbde887c88e2d8e9f2566a14394[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: ddinislam <251118@astanait.edu.kz>
+Date:   Tue Jan 20 20:02:50 2026 +0500
+
+    Remove IDE files from repository
+
+src/org/example/DBConnection.java
+src/org/example/Main.java
+src/org/example/Post.java
+src/org/example/SocialMedia.java
+
+[33mcommit 1367af81541f46d81cc5521a42df57629898d67e[m[33m ([m[1;31mgithub/master[m[33m)[m
+Author: ddinislam <251118@astanait.edu.kz>
+Date:   Thu Dec 25 22:45:50 2025 +0500
+
+    SocialMediaPlatform2
+
+src/org/example/Content.java
+src/org/example/Main.java
+src/org/example/Post.java
+src/org/example/SocialMedia.java
+src/org/example/User.java
+
+[33mcommit 62296ffca9a63d93d304a1537e6645cd91e23813[m
+Author: ddinislam <251118@astanait.edu.kz>
+Date:   Tue Dec 16 00:26:32 2025 +0500
+
+    Remove IDE files from repository
+
+.gitignore
+
+[33mcommit 869926b6dc2cafac829f316e7503dbdf8151a005[m
+Author: ddinislam <251118@astanait.edu.kz>
+Date:   Tue Dec 16 00:23:41 2025 +0500
+
+    Remove IDE files from repository
+
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+Social Media Platform.iml
+
+[33mcommit 7ba415511850c71e901fa5be38985e990790deef[m
+Author: ddinislam <251118@astanait.edu.kz>
+Date:   Tue Dec 16 00:12:03 2025 +0500
+
+    Initial commit
+
+.gitignore
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+README.md
+Social Media Platform.iml
+src/Main.java
+src/org/example/Main.java
+src/org/example/Post.java
+src/org/example/SocialMedia.java
+src/org/example/User.java
