@@ -7,6 +7,7 @@ Java project that simulates a simple social media platform.
 - User – represents a platform user
 - Post – represents a post created by a user
 - SocialMedia – publishes posts
+- Content
 
 ## Features
 - Object-oriented programming (OOP)
